@@ -14,39 +14,52 @@ body {
     display: flex;
     background: #1F2937;
     padding: 8px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    
       
 }
 
-img {
+.logo-and-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 190px;
+}
+
+#header-img {
     max-width: 69px;
     max-height: 69px;
+    
 }
 
 .header-logo {
-    color: #e5e7eb;
-    margin-right: auto;
     color: #f9faf8;
-    font-size: 24px;
-    margin-left: 10px;
-    
+    font-size: 24px;  
     
 }
 
-/* .header-links {
-    display: flex;
-    justify-content: space-between;
-} */
+ .header-links {
+    margin-right: 18px;
+   
+}
 
 .header-content {
     display: flex;
-    flex-direction: column;
     background: #1F2937;
     flex-wrap: wrap;   
+    flex-grow: 1;
     height: 500px;
-   
-    
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -60,29 +73,28 @@ img {
     padding: 8px 16px;
     border: 1px solid royalblue;
     font-weight: bold;
+    margin-top: 15px;
 }
 
-/* .header-image {
-    
-} */
-
-/* .h-img-align {
-    display: flex;
-    justify-content: flex-start;
-    outline: 1px solid red;
-    flex-grow: 1;
-} */
+#header-image {
+    height: 300px;
+    width: 600px;
+} 
 
 p {
     font-size: 18px;
     color: #e5e7eb;
-    max-width: 250px;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    max-width: 500px;
+
 }
 
 ul {

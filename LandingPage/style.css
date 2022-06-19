@@ -8,55 +8,58 @@ body {
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
+    text-align: center;
 }   
 
 .header {
     display: flex;
     background: #1F2937;
-    padding: 8px;
-    justify-content: space-around;
-    align-items: center;
+    padding: 8px;   
+    flex-direction: column;
     
-      
+}
+.header-box {
+    
 }
 
-.logo-and-text {
+.nav {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-text-left {
+    display: flex;
     gap: 10px;
-    margin-right: 190px;
+    margin-left: 7.5%;
+    color: #f9faf8;
+    font-size: 24px; 
+    align-items: center; 
 }
 
 #header-img {
-    max-width: 69px;
-    max-height: 69px;
-    
-}
-
-.header-logo {
-    color: #f9faf8;
-    font-size: 24px;  
+    max-width: 75px;
+    max-height: 50px;
     
 }
 
  .header-links {
-    margin-right: 18px;
-   
+   display: flex;
+    align-items: center;
 }
 
 .header-content {
     display: flex;
     background: #1F2937;
     flex-wrap: wrap;   
-    flex-grow: 1;
-    height: 500px;
+    height: 480px;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
-.header-column {
+.left-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,9 +79,13 @@ body {
     margin-top: 15px;
 }
 
+.header-sign-up:hover {
+    opacity: 0.8;
+}
+
 #header-image {
-    height: 300px;
-    width: 600px;
+    height: 215px;
+    width: 500px;
 } 
 
 p {
@@ -102,7 +109,7 @@ ul {
     display: flex;
     font-size: 18px; 
     color: #e5e7eb;
-    gap: 15px;
+    gap: 15px; 
 }
 
 a {
@@ -110,16 +117,71 @@ a {
     transition: 0.3s;
 }
 
-
 a:hover {
    opacity: 0.5;
 }
-
 a:visited {
     color: #e5e7eb;
 }
 
 a:active {
     color: black;
+}
 
+.right-content {
+    display: flex;
+    
+}
+
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.photos {
+    height: 200px;
+    width: 240px;
+    border: solid royalblue 3px;
+    border-radius: 30px;
+    overflow: hidden;
+    
+   
+ 
+}
+
+.image-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#wall, #mykonos, #sydney, #fuji {
+    height: 200px;
+    width: 240px;
+    
+    
+}
+
+.text {
+    margin-top: 15px;
+    max-width: 200px;
+    margin-left: 20px;
+    
+}
+
+/* .quote {
+    background: #e5e7eb;
+
+} */
+
+.quote-area {
+    display: flex;
+    
 }

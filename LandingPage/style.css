@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -15,8 +19,10 @@ body {
 .header {
 	display: flex;
 	background: #1f2937;
-	padding: 8px;
+	padding-left: 100px;
+	padding-right: 100px;
 	flex-direction: column;
+	align-items: center;
 }
 
 /* Navigation section */
@@ -29,7 +35,6 @@ body {
 .logo-text-left {
 	display: flex;
 	gap: 10px;
-	margin-left: 7.5%;
 	color: #f9faf8;
 	font-size: 24px;
 	align-items: center;
@@ -51,21 +56,24 @@ body {
 .header-content {
 	display: flex;
 	background: #1f2937;
-	flex-wrap: wrap;
+	gap: 50px;
 	height: 480px;
 	align-items: center;
-	gap: 50px;
-	justify-content: center;
-	flex-wrap: wrap;
 }
-
+.nav-img {
+	display: flex;
+	flex-direction: column;
+}
 .left-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: baseline;
 }
-
+.right-content {
+	display: flex;
+	flex-direction: column;
+}
 .header-sign-up {
 	background: #3882f6;
 	color: white;
@@ -78,6 +86,8 @@ body {
 	font-weight: bold;
 	margin-bottom: 60px;
 	margin-left: 40px;
+
+	margin-top: 10px;
 }
 
 .header-sign-up:hover {
@@ -125,10 +135,6 @@ a:visited {
 
 a:active {
 	color: black;
-}
-
-.right-content {
-	display: flex;
 }
 
 /*Main content and photos section*/
@@ -227,7 +233,7 @@ em {
 }
 
 .right-part {
-	margin-left: 300px;
+	padding-left: 190px;
 }
 
 .content-sign-up {
@@ -245,10 +251,14 @@ em {
 strong {
 	color: white;
 	font-size: 25px;
+	overflow: hidden;
+	white-space: nowrap;
 }
 .left-part p {
 	font-size: 20px;
 	max-width: 1000px;
+	overflow: hidden;
+	white-space: nowrap;
 }
 .something {
 	display: flex;

@@ -45,7 +45,8 @@ button {
 }
 
 #header-img {
-	max-width: 75px;
+	padding-top: 5px;
+	max-width: 50px;
 	max-height: 50px;
 }
 
@@ -72,7 +73,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: baseline;
+	max-width: 600px;
 }
 .right-content {
 	display: flex;
@@ -106,15 +107,13 @@ button {
 p {
 	font-size: 18px;
 	color: #e5e7eb;
-	max-width: 500px;
 	margin-top: 5px;
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 2.5rem;
 	font-weight: 800;
 	color: #f9faf8;
-	max-width: 500px;
 }
 
 ul {

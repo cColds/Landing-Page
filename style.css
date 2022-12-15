@@ -25,6 +25,10 @@ body {
 	align-items: center;
 }
 
+button {
+	cursor: pointer;
+}
+
 /* Navigation section */
 
 .nav {
@@ -127,14 +131,14 @@ a {
 }
 
 a:hover {
-	opacity: 0.5;
+	opacity: 0.8;
 }
 a:visited {
 	color: #e5e7eb;
 }
 
-a:active {
-	color: black;
+a:link {
+	color: white;
 }
 
 /*Main content and photos section*/
